@@ -1,12 +1,11 @@
 <!DOCTYPE html>
-<html lang="ru">
+<html lang="ru" xmlns="http://www.w3.org/1999/html">
 <head>
 	<meta charset="UTF-8">
 	<title>Avtoline</title>
 	<link rel="stylesheet" href="css.css" type="text/CSS">
-	<script	src="../js/jquery.maskedinput-master/lib/jquery-1.9.0.min.js" type="text/javascript" charset="UTF-8"></script>
-	<script src="../js/jquery.maskedinput-master/src/jquery.maskedinput.js" type="text/javascript"></script>
-<!--	<script src="../js/MainJS.js" type="text/javascript"></script>-->
+<!--	<script	src="../js/jquery.maskedinput-master/lib/jquery-1.9.0.min.js" type="text/javascript" charset="UTF-8"></script>-->
+<!--	<script src="../js/jquery.maskedinput-master/src/jquery.maskedinput.js" type="text/javascript"></script>-->
 </head>
 <body>
 <!--Шапка сайта-->
@@ -22,8 +21,8 @@
 			<div class="info_wraper">
 				<img src="../img/Phone.svg" alt="" class="phone_svg">
 				<div class="info_grops">
-					<span class="info_grops_text">+7(999)-999-99-99</span>
-					<span class="info_grops_text">+7(999)-999-99-99</span>
+					<span class="info_grops_text">+7 (903) 992 9882</span>
+					<span class="info_grops_text">+7 (952) 812 9999</span>
 				</div>
 			</div>
 			<div class="info_wraper">
@@ -37,104 +36,115 @@
 	</header>
 <!--Основной блок-->
 	<main class="content">
-<!--		<div class="section_1">-->
-<!--				<div class="section_1-text">-->
-<!--				<h1>Купить автомобиль в кредит - легко!</h1>-->
-<!--					<p>Одобрение кредита в Бийске на любой автомобиль</p>-->
-<!--					<p>с пробегом в течение часа</p>-->
-<!--				</div>-->
-<!--			</div>-->
+		<div class="section_1">
+				<div class="section_1-text">
+				<h1>Купить автомобиль в кредит - легко!</h1>
+					<p>Одобрение кредита в Бийске на любой автомобиль</p>
+					<p>с пробегом в течение часа</p>
+				</div>
+			</div>
 
-<!--		<div class="section_2">-->
-<!--			<div class="section_2&#45;&#45;heding">-->
-<!--				<span class="section_2&#45;&#45;heding&#45;&#45;text">Почему мы?</span>-->
-<!--				<span class="section_2&#45;&#45;under&#45;&#45;heding&#45;&#45;text">Мы сделали наш сервис доступным и удобным для Вас!</span>-->
-<!--			</div>-->
+		<div class="section_2">
+			<div class="section_2--heding">
+				<span class="section_2--heding--text">Почему мы?</span>
+				<span class="section_2--under--heding--text">Мы сделали наш сервис доступным и удобным для Вас!</span>
+			</div>
 
-<!--			<div class="section_2&#45;&#45;icon__section">-->
+			<div class="section_2--icon__section">
 
-<!--				<div class="icon__wrapper">-->
-<!--					<img src="./img/guard.svg" alt="">-->
-<!--					<span class="icon__wrapper&#45;&#45;name-text">ГАРАНТИИ</span>-->
-<!--					<span class="icon__wrapper&#45;&#45;text">ПТС остается на руках</span>-->
-<!--				</div>-->
+				<div class="icon__wrapper">
+					<img src="../img/guard.svg" alt="">
+					<span class="icon__wrapper--name-text">ГАРАНТИИ</span>
+					<span class="icon__wrapper--text">ПТС остается на руках</span>
+				</div>
 
-<!--				<div class="icon__wrapper">-->
-<!--					<img src="./img/spead.svg" alt="">-->
-<!--					<span class="icon__wrapper&#45;&#45;name-text">СКОРОСТЬ</span>-->
-<!--					<span class="icon__wrapper&#45;&#45;text">Автомобиль в день обращения</span>-->
-<!--				</div>-->
+				<div class="icon__wrapper">
+					<img src="../img/spead.svg" alt="">
+					<span class="icon__wrapper--name-text">СКОРОСТЬ</span>
+					<span class="icon__wrapper--text">Автомобиль в день обращения</span>
+				</div>
 
-<!--				<div class="icon__wrapper">-->
-<!--					<img src="./img/cash.svg" alt="">-->
-<!--					<span class="icon__wrapper&#45;&#45;name-text">ЭКОНОМИЯ</span>-->
-<!--					<span class="icon__wrapper&#45;&#45;text">Первоначальный взнос 0%</span>-->
-<!--				</div>-->
+				<div class="icon__wrapper">
+					<img src="../img/cash.svg" alt="">
+					<span class="icon__wrapper--name-text">ЭКОНОМИЯ</span>
+					<span class="icon__wrapper--text">Первоначальный взнос 0%</span>
+				</div>
 
-<!--				<div class="icon__wrapper">-->
-<!--					<img src="./img/smile.svg" alt="">-->
-<!--					<span class="icon__wrapper&#45;&#45;name-text">КОМФОРТ</span>-->
-<!--					<span class="icon__wrapper&#45;&#45;text">Автокредит сроком до 7-ми лет</span>-->
-<!--				</div>-->
-
-<!--			</div>-->
-<!--		</div>-->
-
+				<div class="icon__wrapper">
+					<img src="../img/smile.svg" alt="">
+					<span class="icon__wrapper--name-text">КОМФОРТ</span>
+					<span class="icon__wrapper--text">Автокредит сроком до 7-ми лет</span>
+				</div>
+			</div>
+		</div>
 
 		<div class="section_3">
-			<div class="section_3--form">
+			<div class="section--form">
 				<form class="form">
-					<span class="section_3--heding">Оставить заявку на автокредит</span>
+					<span class="section--heding">Оставить заявку на автокредит</span>
 					<input id="user-name_kredit" name="user-name" type="text" placeholder="ФИО"/>
-					<input  class="tell-number" id="user-phone_kredit" name="user-phone" type="tel" placeholder="номер телефона"/>
-						<script>
-						$('.tell-number').mask('+7 (999) 999-99-99');
-						</script>
+					<input  class="tel" id="user-phone_kredit" name="user-phone" type="tel"
+							placeholder="номер телефона"/>
 					<input id="fulldate" name="fulldate" type="date" placeholder="Дата рождения"/>
-					<input id="button--form" class="section_3--form--button"
-						   type="submit">Оставить заявку</input>
+					<button class="section--form--button"
+							type="submit">Оставить заявку</button>
 					<span>Нажимая на кнопку, вы даете согласие на
 						обработку персональных данных</span>
 				</form>
-				<div class="section_3--form--img"><img src="../img/car1.png" alt="car"></div>
+				<div class="section--form--img"><img src="../img/car1.png" alt="car"></div>
 			</div>
 		</div>
-<!--		<div class="section">-->
-<!--			<span>Преимущества автокредита</span>-->
-<!--			<ul>-->
-<!--				<li>Возможность приобрести автомобиль без необходимости иметь полную сумму на руках.</li>-->
-<!--				<li>Возможность получить выгодные условия кредитования, такие как низкий процент или отсутствие первоначального взноса.</li>-->
-<!--				<li>Это безопасно! При подаче заявки, банком проводится комплексная проверка автомобиля и продавца.</li>-->
-<!--				<li>Сопровождение на всех этапах сделки.</li>-->
-<!--				<li>Возможность досрочного погашения кредита без штрафных санкций.</li>-->
-<!--			</ul>-->
-<!--			<span>Необходимые документы для оформления кредита</span>-->
-<!--			<div>-->
-<!--				<span>Совершеннолетие</span>-->
-<!--				<img src="./img/passport.svg" alt="">-->
-<!--				<span>Паспорт</span>-->
-<!--				<img src="./img/vy.svg" alt="">-->
-<!--				<span>Водительское удостоверение/СНИЛС</span>-->
-<!--			</div>-->
-<!--		</div>-->
-<!--		<div class="section">-->
-<!--			<div>-->
-<!--				<form>-->
-<!--					<span>Оставить заявку на выкуп автомобиля</span>-->
-<!--					<input id="user-name" name="user-name" type="text"/>-->
-<!--					<input id="user-phone" name="user-phone" type="tel"/>-->
-<!--					<input id="car-name" name="car-name" type="text"/>-->
-<!--					<input id="money_number" name="money_number" type="number"/>-->
-<!--					<button class="button_click">Оставить заявку</button>-->
-<!--					<span>Нажимая на кнопку, вы даете согласие на обработку персональных данных</span>-->
-<!--				</form>-->
-<!--			</div>-->
-<!--		</div>-->
 
+		<div class="section_4">
+			<span class="section_4--heding--text">Преимущества автокредита</span>
+			<ul class="section_4--list">
+				<li>Возможность приобрести автомобиль без необходимости иметь полную сумму на руках.</li>
+				<li>Возможность получить выгодные условия кредитования, такие как низкий процент или отсутствие первоначального взноса.</li>
+				<li>Это безопасно! При подаче заявки, банком проводится комплексная проверка автомобиля и продавца.</li>
+				<li>Сопровождение на всех этапах сделки.</li>
+				<li>Возможность досрочного погашения кредита без штрафных санкций.</li>
+			</ul>
+			<span class="section_4--under--text">Необходимые документы для оформления кредита</span>
+			<div class="section_4--undet--list">
+				<ul class="section_4--list">
+					<li>Совершеннолетие</li>
+					<li>Паспорт</li>
+					<li>Водительское удостоверение/СНИЛС</li>
+				</ul>
+			</div>
+		</div>
+
+		<div class="section_5">
+			<div class="section--form">
+				<form class="form">
+					<span class="section--heding">Оставить заявку на выкуп автомобиля</span>
+					<input id="user-name"  type="text" placeholder="ФИО"/>
+					<input  class="tel" id="user-phone"  type="tel" placeholder="Номер телефона"/>
+					<input id="car-name"  type="text" placeholder="Интересующая машина"/>
+					<input id="money_number"  type="number" placeholder="Желаемая цена покупки"/>
+					<button class="section--form--button_2">Оставить заявку</button>
+					<span>Нажимая на кнопку, вы даете согласие на
+						обработку персональных данных</span>
+				</form>
+				<div class="section_5--form--img"><img  class="car_2" src="../img/car2.png" alt="car">
+				</div>
+			</div>
+		</div>
 
 	</main>
-	<footer class="footer_block">
+	<footer>
+		<div class="footer_text">
+			<span>© 2024 "АвтоЛайн"</span>
+			<span>Телефон: +7 (999) 999 99-99</span>
+			<span>Адрес: Бийск, ул. Сенная, 124Г</span>
+			<span>График: Пн-вс с 9:00 до 20:00</span>
+		</div>
+		<div class="footer_icon">
+			<img class="footer_svg" src="../img/telegram.svg">
+			<img class="footer_svg" src="../img/whatsapp.svg">
+		</div>
 	</footer>
+<script src="../js/MainJS.js" type="text/javascript"></script>
 </body>
 </html>
 
