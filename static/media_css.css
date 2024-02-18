@@ -1,5 +1,88 @@
-@media screen and (max-width: 1550px) {
+@media screen and (max-width: 1770px) {
 .info_grops_text {
-    font-size: 0.9rem;
+    font-size: 0.8rem;
 }
+}
+
+
+@media screen and (max-width: 480px) {
+    .heder {
+        height: 30px;
+    }
+    .button_wraper{
+        width: 240px;
+    }
+    .button__heder__button{
+        font-size: 0.6rem;
+        margin: 1%;
+    }
+    .info{
+        width: 15%;
+        height: 80%;
+    }
+    .info_grops_text{
+        display: none;
+    }
+    .info_grops{
+        height: 2%;
+    }
+    .section_1-text > h1{
+        font-size: 2.5rem;
+        padding-bottom: 15px;
+    }
+    .section_1-text > p{
+        font-size: 2rem;
+    }
+    .section_2--icon__section{
+        flex-direction: column;
+    }
+    .icon__wrapper{
+        margin: 6.5%;
+    }
+    .icon__wrapper--text{
+        font-size: 120%;
+    }
+    .section--form--img{
+        display: none;
+    }
+    .section--heding{
+        font-size: 1.4rem;
+    }
+    .form > input {
+        width: auto;
+    }
+    .section--form{
+        height: auto;
+        width: auto;
+    }
+    .section--form--button{
+        width: auto;
+    }
+    .section_4{
+        padding-left: 5%;
+    }
+    .section_4--heding--text{
+        font-size: 1.9rem;
+        padding-bottom: 15px;
+    }
+    .section_4--list{
+        font-size: 1.2rem;
+        padding-bottom: 15px;
+    }
+    .section_4--under--text{
+        font-size: 1.5rem;
+        padding-bottom: 15px;
+    }
+    .section_4--undet--list{
+        font-size: 1.2rem;
+    }
+    .section--form--button_2{
+        width: auto;
+    }
+    .car_2{
+        display: none;
+    }
+    .footer_text{
+        font-size: 1rem;
+    }
 }
