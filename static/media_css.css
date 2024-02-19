@@ -4,8 +4,51 @@
 }
 }
 
+@media screen and (max-width: 1330px) {
+    .info_grops_text {
+        font-size: 0.5rem;
+    }
+    .section--form--img{
+        display: none;
+    }
+    .car_2{
+        display: none;
+    }
+    .form > input {
+         width: auto;
+    }
+    .section--form{
+         height: auto;
+        width: auto;
+    }
+    .section--form--button{
+         width: auto;
+    }
+    .section--form--button_2{
+        width: auto;
+    }
+     .section_4{
+        padding-left: 5%;
+    }
+    .section_4--heding--text{
+        font-size: 2.4rem;
+        padding-bottom: 15px;
+    }
+    .section_4--list{
+        font-size: 2rem;
+        padding-bottom: 15px;
+    }
+    .section_4--under--text{
+        font-size: 2.4rem;
+        padding-bottom: 15px;
+    }
+    .section_4--undet--list{
+        font-size: 2rem;
+    }
+}
 
-@media screen and (max-width: 480px) {
+
+@media screen and (max-width: 1024px) {
     .heder {
         height: 30px;
     }

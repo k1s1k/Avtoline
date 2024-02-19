@@ -1,5 +1,3 @@
-// $('.tell-number').mask('+7 (999) 999-99-99');
-
 [].forEach.call( document.querySelectorAll('.tel'), function(input) {
         var keyCode;
         function mask(event) {
