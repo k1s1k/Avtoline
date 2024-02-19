@@ -25,7 +25,6 @@
 .button_wraper{
     display: flex;
     justify-content: space-between;
-    width: 37%;
 }
 
 .button__heder__button{
@@ -34,9 +33,10 @@
     filter: drop-shadow(0px 2px 7px rgba(0, 0, 0, 0.25));
     border-radius: 30px;
     border: none;
-    font-size: 1rem;
+    font-size: 1.1rem;
     transition: background-color 0.15s ease-in;
     padding: 1% 6%;
+    margin-left: 8%;
 }
 .button__heder__button:hover{
     background-color: rgba(28,109,16,0.77);
@@ -59,6 +59,7 @@
 
 .info_grops_text{
     font-size: 1rem;
+    width: 100%;
 }
 
 .content{
@@ -154,8 +155,7 @@ h1 {
 }
 
 .section--form{
-    height: 50%;
-    width: 56%;
+    width: 80%;
     background-color: white;
     border-radius: 15px;
     position: relative;
@@ -192,8 +192,9 @@ width: 40%;
 .section--form--img {
     position: absolute;
     z-index: 2;
-    top: 13%;
+    top: 8%;
     right: -12%;
+    width: 65%;
 }
 
 .section_4{
@@ -241,6 +242,7 @@ width: 40%;
     z-index: 2;
     top: 15%;
     right: -11%;
+    width: 65%;
 }
 
 .section--form--button_2 {
@@ -272,3 +274,4 @@ footer{
     flex-direction: column;
     font-size: 1.3rem;
 }
+

@@ -1,12 +1,22 @@
 @media screen and (max-width: 1770px) {
 .info_grops_text {
-    font-size: 0.8rem;
+    font-size: 0.75rem;
 }
 }
 
+@media (orientation: landscape) {
+    .section_2--heding {
+        text-align: center;
+        margin: 3%;
+    }
+}
+
 @media screen and (max-width: 1330px) {
+    .heder{
+        height: 60px;
+    }
     .info_grops_text {
-        font-size: 0.5rem;
+        font-size: 0.56rem;
     }
     .section--form--img{
         display: none;
@@ -80,7 +90,7 @@
         flex-direction: column;
     }
     .icon__wrapper{
-        margin: 6.5%;
+        margin: 2.5%;
     }
     .icon__wrapper--text{
         font-size: 120%;
@@ -129,3 +139,4 @@
         font-size: 1rem;
     }
 }
+
