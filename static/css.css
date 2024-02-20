@@ -44,8 +44,9 @@
 
 .info {
     display: flex;
-    width: 22%;
+    width: 20%;
     justify-content: space-between;
+    margin: 0.5%;
 }
 
 .info_wraper{
@@ -119,6 +120,7 @@ h1 {
     flex-direction: row;
     justify-content: center;
     flex-wrap: nowrap;
+    padding-top: 9%;
 }
 .icon__wrapper {
     display: flex;
@@ -209,12 +211,12 @@ width: 40%;
 }
 
 .section_4--heding--text{
-    font-size: 4rem;
+    font-size: 3rem;
     margin-bottom: 1%;
 }
 
 .section_4--under--text{
-    font-size: 4rem;
+    font-size: 3rem;
     margin-top: 5%;
     margin-bottom: 1%;
 }
@@ -275,3 +277,14 @@ footer{
     font-size: 1.3rem;
 }
 
+::-webkit-scrollbar {
+  width: 9px;
+}
+::-webkit-scrollbar-track {
+  background: transparent;
+}
+::-webkit-scrollbar-thumb {
+  background-color: rgba(155, 155, 155, 0.5);
+  border-radius: 20px;
+  border: transparent;
+}
